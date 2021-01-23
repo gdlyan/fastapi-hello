@@ -11,7 +11,7 @@ class Item(BaseModel):
 
 @app.get("/")
 async def read_root():
-    return {"Hello": "World"}
+    return {"Hello": "Test automated deployment"}
 
 
 @app.get("/items/{item_id}")
